@@ -7701,3 +7701,149 @@ Started GET "/assets/pages-520f000de9c4179bc5a11504b602dff1.js?body=1" for ::1 a
 
 
 Started GET "/assets/application-d9fc3548c3f17111fd2c1d66c95678ab.js?body=1" for ::1 at 2015-01-19 11:30:26 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+
+
+Started GET "/pins" for ::1 at 2015-01-19 11:33:58 -0700
+Processing by PinsController#index as HTML
+  [1m[35mPin Load (0.3ms)[0m  SELECT "pins".* FROM "pins"
+  Rendered pins/index.html.erb within layouts/application (3.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 131ms (Views: 128.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/foundation_and_overrides-956851ad74b4019d3e40fece236697d7.css?body=1" for ::1 at 2015-01-19 11:33:59 -0700
+
+
+Started GET "/assets/pages-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-01-19 11:33:59 -0700
+
+
+Started GET "/assets/pins-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-01-19 11:33:59 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-19 11:33:59 -0700
+
+
+Started GET "/assets/application-9c716887514c06c0ad1663159fd4140c.css?body=1" for ::1 at 2015-01-19 11:33:59 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-19 11:33:59 -0700
+
+
+Started GET "/assets/foundation/foundation.abide-2ec530cd06c78b471a0bda9dcbaba353.js?body=1" for ::1 at 2015-01-19 11:33:59 -0700
+
+
+Started GET "/assets/foundation/foundation.alert-650042c6860b24bb872463c8b3f8aa8c.js?body=1" for ::1 at 2015-01-19 11:33:59 -0700
+
+
+Started GET "/assets/foundation/foundation-ece7e00cdd054357f30fbc2a5a4e3c30.js?body=1" for ::1 at 2015-01-19 11:33:59 -0700
+
+
+Started GET "/assets/foundation/foundation.offcanvas-29588b3b2cc818691e87dc5dcd2cf2d2.js?body=1" for ::1 at 2015-01-19 11:33:59 -0700
+
+
+Started GET "/assets/foundation/foundation.joyride-8b61d0d3ff7ac6df603f7309d3a86fb9.js?body=1" for ::1 at 2015-01-19 11:33:59 -0700
+
+
+Started GET "/assets/foundation/foundation.reveal-dcfe4d3df1f6f19988ff7e6a27a9f5cb.js?body=1" for ::1 at 2015-01-19 11:33:59 -0700
+
+
+Started GET "/assets/foundation/foundation.accordion-3d04bf508a9418fdc81cd5c7d0a1c49d.js?body=1" for ::1 at 2015-01-19 11:33:59 -0700
+
+
+Started GET "/assets/foundation/foundation.clearing-0aec5bed7e891190d8a008ce5d7315e7.js?body=1" for ::1 at 2015-01-19 11:33:59 -0700
+
+
+Started GET "/assets/foundation/foundation.dropdown-51a6f3e403182c0631c04b4ed672b6aa.js?body=1" for ::1 at 2015-01-19 11:33:59 -0700
+
+
+Started GET "/assets/foundation/foundation.orbit-20cb4e9c7259b06ea11dbe71f058f502.js?body=1" for ::1 at 2015-01-19 11:33:59 -0700
+
+
+Started GET "/assets/foundation/foundation.magellan-03b9c678f8797176264e917ce34331bd.js?body=1" for ::1 at 2015-01-19 11:33:59 -0700
+
+
+Started GET "/assets/foundation/foundation.slider-02784fa4e40cec8a79e0cd398154fe13.js?body=1" for ::1 at 2015-01-19 11:33:59 -0700
+
+
+Started GET "/assets/foundation/foundation.tab-e1ee77678dc79b9e0325d678cdbcc0b9.js?body=1" for ::1 at 2015-01-19 11:33:59 -0700
+
+
+Started GET "/assets/foundation/foundation.topbar-03679c9351cf106176ad8fcf9726843d.js?body=1" for ::1 at 2015-01-19 11:33:59 -0700
+
+
+Started GET "/assets/foundation/foundation.interchange-51c1f69e58ac915261c2f19939a6ffc8.js?body=1" for ::1 at 2015-01-19 11:33:59 -0700
+
+
+Started GET "/assets/pages-520f000de9c4179bc5a11504b602dff1.js?body=1" for ::1 at 2015-01-19 11:33:59 -0700
+
+
+Started GET "/assets/application-d9fc3548c3f17111fd2c1d66c95678ab.js?body=1" for ::1 at 2015-01-19 11:33:59 -0700
+
+
+Started GET "/assets/foundation/foundation.tooltip-11a5f22deb5107bd8d056a4a92547d92.js?body=1" for ::1 at 2015-01-19 11:33:59 -0700
+
+
+Started GET "/assets/foundation/foundation.equalizer-2426b7ac654d73d1baf2fddfb072f8a5.js?body=1" for ::1 at 2015-01-19 11:33:59 -0700
+
+
+Started GET "/assets/foundation-d72e2180e40189136db6ab13d1e7ceae.js?body=1" for ::1 at 2015-01-19 11:33:59 -0700
+
+
+Started GET "/assets/pins-520f000de9c4179bc5a11504b602dff1.js?body=1" for ::1 at 2015-01-19 11:33:59 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-19 11:33:59 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
