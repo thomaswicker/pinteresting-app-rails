@@ -1228,3 +1228,826 @@ Started GET "/assets/foundation-d72e2180e40189136db6ab13d1e7ceae.js?body=1" for 
 
 
 Started GET "/assets/pages-520f000de9c4179bc5a11504b602dff1.js?body=1" for ::1 at 2015-01-19 00:13:12 -0700
+
+
+Started GET "/" for ::1 at 2015-01-19 00:17:45 -0700
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 110ms (Views: 109.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/foundation_and_overrides-956851ad74b4019d3e40fece236697d7.css?body=1" for ::1 at 2015-01-19 00:17:46 -0700
+
+
+Started GET "/assets/foundation/foundation-ece7e00cdd054357f30fbc2a5a4e3c30.js?body=1" for ::1 at 2015-01-19 00:17:46 -0700
+
+
+Started GET "/assets/application-c51551f704bf3082e9450c4664976f24.css?body=1" for ::1 at 2015-01-19 00:17:46 -0700
+
+
+Started GET "/assets/pages-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-01-19 00:17:46 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-19 00:17:46 -0700
+
+
+Started GET "/assets/vendor/modernizr-d804d6b1ab4eadb8fb48af61a74096e6.js?body=1" for ::1 at 2015-01-19 00:17:46 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-19 00:17:46 -0700
+
+
+Started GET "/assets/foundation/foundation.abide-2ec530cd06c78b471a0bda9dcbaba353.js?body=1" for ::1 at 2015-01-19 00:17:46 -0700
+
+
+Started GET "/assets/foundation/foundation.clearing-0aec5bed7e891190d8a008ce5d7315e7.js?body=1" for ::1 at 2015-01-19 00:17:46 -0700
+
+
+Started GET "/assets/foundation/foundation.interchange-51c1f69e58ac915261c2f19939a6ffc8.js?body=1" for ::1 at 2015-01-19 00:17:46 -0700
+
+
+Started GET "/assets/foundation/foundation.magellan-03b9c678f8797176264e917ce34331bd.js?body=1" for ::1 at 2015-01-19 00:17:46 -0700
+
+
+Started GET "/assets/foundation/foundation.orbit-20cb4e9c7259b06ea11dbe71f058f502.js?body=1" for ::1 at 2015-01-19 00:17:46 -0700
+
+
+Started GET "/assets/foundation/foundation.slider-02784fa4e40cec8a79e0cd398154fe13.js?body=1" for ::1 at 2015-01-19 00:17:46 -0700
+
+
+Started GET "/assets/foundation/foundation.accordion-3d04bf508a9418fdc81cd5c7d0a1c49d.js?body=1" for ::1 at 2015-01-19 00:17:46 -0700
+
+
+Started GET "/assets/foundation/foundation.dropdown-51a6f3e403182c0631c04b4ed672b6aa.js?body=1" for ::1 at 2015-01-19 00:17:46 -0700
+
+
+Started GET "/assets/foundation/foundation.joyride-8b61d0d3ff7ac6df603f7309d3a86fb9.js?body=1" for ::1 at 2015-01-19 00:17:46 -0700
+
+
+Started GET "/assets/foundation/foundation.offcanvas-29588b3b2cc818691e87dc5dcd2cf2d2.js?body=1" for ::1 at 2015-01-19 00:17:46 -0700
+
+
+Started GET "/assets/foundation/foundation.reveal-dcfe4d3df1f6f19988ff7e6a27a9f5cb.js?body=1" for ::1 at 2015-01-19 00:17:46 -0700
+
+
+Started GET "/assets/foundation/foundation.tab-e1ee77678dc79b9e0325d678cdbcc0b9.js?body=1" for ::1 at 2015-01-19 00:17:46 -0700
+
+
+Started GET "/assets/foundation/foundation.alert-650042c6860b24bb872463c8b3f8aa8c.js?body=1" for ::1 at 2015-01-19 00:17:46 -0700
+
+
+Started GET "/assets/foundation/foundation.equalizer-2426b7ac654d73d1baf2fddfb072f8a5.js?body=1" for ::1 at 2015-01-19 00:17:46 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-19 00:17:46 -0700
+
+
+Started GET "/assets/application-d9bd4d34014c63190efc4e56b3021933.js?body=1" for ::1 at 2015-01-19 00:17:46 -0700
+
+
+Started GET "/assets/foundation/foundation.tooltip-11a5f22deb5107bd8d056a4a92547d92.js?body=1" for ::1 at 2015-01-19 00:17:46 -0700
+
+
+Started GET "/assets/foundation-d72e2180e40189136db6ab13d1e7ceae.js?body=1" for ::1 at 2015-01-19 00:17:46 -0700
+
+
+Started GET "/assets/pages-520f000de9c4179bc5a11504b602dff1.js?body=1" for ::1 at 2015-01-19 00:17:46 -0700
+
+
+Started GET "/assets/foundation/foundation.topbar-03679c9351cf106176ad8fcf9726843d.js?body=1" for ::1 at 2015-01-19 00:17:46 -0700
+
+
+Started GET "/" for ::1 at 2015-01-19 00:19:15 -0700
+Processing by PagesController#home as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 109ms (Views: 108.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/foundation_and_overrides-956851ad74b4019d3e40fece236697d7.css?body=1" for ::1 at 2015-01-19 00:19:15 -0700
+
+
+Started GET "/assets/pages-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-01-19 00:19:15 -0700
+
+
+Started GET "/assets/application-c51551f704bf3082e9450c4664976f24.css?body=1" for ::1 at 2015-01-19 00:19:15 -0700
+
+
+Started GET "/assets/foundation/foundation-ece7e00cdd054357f30fbc2a5a4e3c30.js?body=1" for ::1 at 2015-01-19 00:19:15 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-19 00:19:15 -0700
+
+
+Started GET "/assets/foundation/foundation.accordion-3d04bf508a9418fdc81cd5c7d0a1c49d.js?body=1" for ::1 at 2015-01-19 00:19:15 -0700
+
+
+Started GET "/assets/vendor/modernizr-d804d6b1ab4eadb8fb48af61a74096e6.js?body=1" for ::1 at 2015-01-19 00:19:15 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-19 00:19:15 -0700
+
+
+Started GET "/assets/foundation/foundation.clearing-0aec5bed7e891190d8a008ce5d7315e7.js?body=1" for ::1 at 2015-01-19 00:19:15 -0700
+
+
+Started GET "/assets/foundation/foundation.abide-2ec530cd06c78b471a0bda9dcbaba353.js?body=1" for ::1 at 2015-01-19 00:19:15 -0700
+
+
+Started GET "/assets/foundation/foundation.magellan-03b9c678f8797176264e917ce34331bd.js?body=1" for ::1 at 2015-01-19 00:19:15 -0700
+
+
+Started GET "/assets/foundation/foundation.alert-650042c6860b24bb872463c8b3f8aa8c.js?body=1" for ::1 at 2015-01-19 00:19:15 -0700
+
+
+Started GET "/assets/foundation/foundation.slider-02784fa4e40cec8a79e0cd398154fe13.js?body=1" for ::1 at 2015-01-19 00:19:15 -0700
+
+
+Started GET "/assets/foundation/foundation.tooltip-11a5f22deb5107bd8d056a4a92547d92.js?body=1" for ::1 at 2015-01-19 00:19:15 -0700
+
+
+Started GET "/assets/foundation/foundation.dropdown-51a6f3e403182c0631c04b4ed672b6aa.js?body=1" for ::1 at 2015-01-19 00:19:15 -0700
+
+
+Started GET "/assets/foundation/foundation.interchange-51c1f69e58ac915261c2f19939a6ffc8.js?body=1" for ::1 at 2015-01-19 00:19:15 -0700
+
+
+Started GET "/assets/foundation/foundation.offcanvas-29588b3b2cc818691e87dc5dcd2cf2d2.js?body=1" for ::1 at 2015-01-19 00:19:15 -0700
+
+
+Started GET "/assets/foundation/foundation.orbit-20cb4e9c7259b06ea11dbe71f058f502.js?body=1" for ::1 at 2015-01-19 00:19:15 -0700
+
+
+Started GET "/assets/foundation/foundation.tab-e1ee77678dc79b9e0325d678cdbcc0b9.js?body=1" for ::1 at 2015-01-19 00:19:15 -0700
+
+
+Started GET "/assets/foundation/foundation.topbar-03679c9351cf106176ad8fcf9726843d.js?body=1" for ::1 at 2015-01-19 00:19:15 -0700
+
+
+Started GET "/assets/foundation/foundation.equalizer-2426b7ac654d73d1baf2fddfb072f8a5.js?body=1" for ::1 at 2015-01-19 00:19:15 -0700
+
+
+Started GET "/assets/foundation/foundation.joyride-8b61d0d3ff7ac6df603f7309d3a86fb9.js?body=1" for ::1 at 2015-01-19 00:19:15 -0700
+
+
+Started GET "/assets/application-d9bd4d34014c63190efc4e56b3021933.js?body=1" for ::1 at 2015-01-19 00:19:15 -0700
+
+
+Started GET "/assets/foundation/foundation.reveal-dcfe4d3df1f6f19988ff7e6a27a9f5cb.js?body=1" for ::1 at 2015-01-19 00:19:15 -0700
+
+
+Started GET "/assets/foundation-d72e2180e40189136db6ab13d1e7ceae.js?body=1" for ::1 at 2015-01-19 00:19:15 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-19 00:19:15 -0700
+
+
+Started GET "/assets/pages-520f000de9c4179bc5a11504b602dff1.js?body=1" for ::1 at 2015-01-19 00:19:15 -0700
+
+
+Started DELETE "/users/sign_out" for ::1 at 2015-01-19 00:19:17 -0700
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ltG/qIKaofKnUaMdunkBXRdj4vyPr1sHKZk9Ptc/XkJ1fAJ4Le17aY4J68HiBCa/JtFIYvsdpfE4g4DwlgYdKw=="}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2015-01-19 00:19:17 -0700
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 107ms (Views: 107.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides-956851ad74b4019d3e40fece236697d7.css?body=1" for ::1 at 2015-01-19 00:19:17 -0700
+
+
+Started GET "/assets/vendor/modernizr-d804d6b1ab4eadb8fb48af61a74096e6.js?body=1" for ::1 at 2015-01-19 00:19:17 -0700
+
+
+Started GET "/assets/pages-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-01-19 00:19:17 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-19 00:19:17 -0700
+
+
+Started GET "/assets/application-c51551f704bf3082e9450c4664976f24.css?body=1" for ::1 at 2015-01-19 00:19:18 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-19 00:19:18 -0700
+
+
+Started GET "/assets/foundation/foundation-ece7e00cdd054357f30fbc2a5a4e3c30.js?body=1" for ::1 at 2015-01-19 00:19:18 -0700
+
+
+Started GET "/assets/foundation/foundation.accordion-3d04bf508a9418fdc81cd5c7d0a1c49d.js?body=1" for ::1 at 2015-01-19 00:19:18 -0700
+
+
+Started GET "/assets/foundation/foundation.clearing-0aec5bed7e891190d8a008ce5d7315e7.js?body=1" for ::1 at 2015-01-19 00:19:18 -0700
+
+
+Started GET "/assets/foundation/foundation.interchange-51c1f69e58ac915261c2f19939a6ffc8.js?body=1" for ::1 at 2015-01-19 00:19:18 -0700
+
+
+Started GET "/assets/foundation/foundation.magellan-03b9c678f8797176264e917ce34331bd.js?body=1" for ::1 at 2015-01-19 00:19:18 -0700
+
+
+Started GET "/assets/foundation/foundation.orbit-20cb4e9c7259b06ea11dbe71f058f502.js?body=1" for ::1 at 2015-01-19 00:19:18 -0700
+
+
+Started GET "/assets/foundation/foundation.abide-2ec530cd06c78b471a0bda9dcbaba353.js?body=1" for ::1 at 2015-01-19 00:19:18 -0700
+
+
+Started GET "/assets/foundation/foundation.alert-650042c6860b24bb872463c8b3f8aa8c.js?body=1" for ::1 at 2015-01-19 00:19:18 -0700
+
+
+Started GET "/assets/foundation/foundation.dropdown-51a6f3e403182c0631c04b4ed672b6aa.js?body=1" for ::1 at 2015-01-19 00:19:18 -0700
+
+
+Started GET "/assets/foundation/foundation.joyride-8b61d0d3ff7ac6df603f7309d3a86fb9.js?body=1" for ::1 at 2015-01-19 00:19:18 -0700
+
+
+Started GET "/assets/foundation/foundation.offcanvas-29588b3b2cc818691e87dc5dcd2cf2d2.js?body=1" for ::1 at 2015-01-19 00:19:18 -0700
+
+
+Started GET "/assets/foundation/foundation.reveal-dcfe4d3df1f6f19988ff7e6a27a9f5cb.js?body=1" for ::1 at 2015-01-19 00:19:18 -0700
+
+
+Started GET "/assets/foundation/foundation.tooltip-11a5f22deb5107bd8d056a4a92547d92.js?body=1" for ::1 at 2015-01-19 00:19:18 -0700
+
+
+Started GET "/assets/foundation/foundation.slider-02784fa4e40cec8a79e0cd398154fe13.js?body=1" for ::1 at 2015-01-19 00:19:18 -0700
+
+
+Started GET "/assets/foundation/foundation.equalizer-2426b7ac654d73d1baf2fddfb072f8a5.js?body=1" for ::1 at 2015-01-19 00:19:18 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-19 00:19:18 -0700
+
+
+Started GET "/assets/application-d9bd4d34014c63190efc4e56b3021933.js?body=1" for ::1 at 2015-01-19 00:19:18 -0700
+
+
+Started GET "/assets/foundation/foundation.topbar-03679c9351cf106176ad8fcf9726843d.js?body=1" for ::1 at 2015-01-19 00:19:18 -0700
+
+
+Started GET "/assets/foundation/foundation.tab-e1ee77678dc79b9e0325d678cdbcc0b9.js?body=1" for ::1 at 2015-01-19 00:19:18 -0700
+
+
+Started GET "/assets/foundation-d72e2180e40189136db6ab13d1e7ceae.js?body=1" for ::1 at 2015-01-19 00:19:18 -0700
+
+
+Started GET "/assets/pages-520f000de9c4179bc5a11504b602dff1.js?body=1" for ::1 at 2015-01-19 00:19:18 -0700
+
+
+Started GET "/users/sign_in" for ::1 at 2015-01-19 00:19:19 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 114ms (Views: 113.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-19 00:19:19 -0700
+
+
+Started GET "/assets/foundation/foundation.abide-2ec530cd06c78b471a0bda9dcbaba353.js?body=1" for ::1 at 2015-01-19 00:19:19 -0700
+
+
+Started GET "/assets/foundation/foundation-ece7e00cdd054357f30fbc2a5a4e3c30.js?body=1" for ::1 at 2015-01-19 00:19:19 -0700
+
+
+Started GET "/assets/foundation/foundation.accordion-3d04bf508a9418fdc81cd5c7d0a1c49d.js?body=1" for ::1 at 2015-01-19 00:19:19 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-19 00:19:19 -0700
+
+
+Started GET "/assets/foundation/foundation.alert-650042c6860b24bb872463c8b3f8aa8c.js?body=1" for ::1 at 2015-01-19 00:19:19 -0700
+
+
+Started GET "/assets/foundation/foundation.clearing-0aec5bed7e891190d8a008ce5d7315e7.js?body=1" for ::1 at 2015-01-19 00:19:19 -0700
+
+
+Started GET "/assets/foundation/foundation.interchange-51c1f69e58ac915261c2f19939a6ffc8.js?body=1" for ::1 at 2015-01-19 00:19:19 -0700
+
+
+Started GET "/assets/foundation/foundation.magellan-03b9c678f8797176264e917ce34331bd.js?body=1" for ::1 at 2015-01-19 00:19:19 -0700
+
+
+Started GET "/assets/foundation/foundation.orbit-20cb4e9c7259b06ea11dbe71f058f502.js?body=1" for ::1 at 2015-01-19 00:19:19 -0700
+
+
+Started GET "/assets/foundation/foundation.slider-02784fa4e40cec8a79e0cd398154fe13.js?body=1" for ::1 at 2015-01-19 00:19:19 -0700
+
+
+Started GET "/assets/foundation/foundation.tooltip-11a5f22deb5107bd8d056a4a92547d92.js?body=1" for ::1 at 2015-01-19 00:19:19 -0700
+
+
+Started GET "/assets/foundation/foundation.dropdown-51a6f3e403182c0631c04b4ed672b6aa.js?body=1" for ::1 at 2015-01-19 00:19:19 -0700
+
+
+Started GET "/assets/foundation/foundation.joyride-8b61d0d3ff7ac6df603f7309d3a86fb9.js?body=1" for ::1 at 2015-01-19 00:19:19 -0700
+
+
+Started GET "/assets/foundation/foundation.offcanvas-29588b3b2cc818691e87dc5dcd2cf2d2.js?body=1" for ::1 at 2015-01-19 00:19:19 -0700
+
+
+Started GET "/assets/foundation/foundation.reveal-dcfe4d3df1f6f19988ff7e6a27a9f5cb.js?body=1" for ::1 at 2015-01-19 00:19:19 -0700
+
+
+Started GET "/assets/foundation/foundation.tab-e1ee77678dc79b9e0325d678cdbcc0b9.js?body=1" for ::1 at 2015-01-19 00:19:19 -0700
+
+
+Started GET "/assets/foundation/foundation.topbar-03679c9351cf106176ad8fcf9726843d.js?body=1" for ::1 at 2015-01-19 00:19:19 -0700
+
+
+Started GET "/assets/foundation/foundation.equalizer-2426b7ac654d73d1baf2fddfb072f8a5.js?body=1" for ::1 at 2015-01-19 00:19:19 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-19 00:19:19 -0700
+
+
+Started GET "/assets/application-d9bd4d34014c63190efc4e56b3021933.js?body=1" for ::1 at 2015-01-19 00:19:19 -0700
+
+
+Started GET "/assets/foundation-d72e2180e40189136db6ab13d1e7ceae.js?body=1" for ::1 at 2015-01-19 00:19:19 -0700
+
+
+Started GET "/assets/pages-520f000de9c4179bc5a11504b602dff1.js?body=1" for ::1 at 2015-01-19 00:19:19 -0700
+
+
+Started GET "/users/sign_in" for ::1 at 2015-01-19 00:19:33 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 118ms (Views: 117.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides-956851ad74b4019d3e40fece236697d7.css?body=1" for ::1 at 2015-01-19 00:19:33 -0700
+
+
+Started GET "/assets/application-c51551f704bf3082e9450c4664976f24.css?body=1" for ::1 at 2015-01-19 00:19:33 -0700
+
+
+Started GET "/assets/pages-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-01-19 00:19:33 -0700
+
+
+Started GET "/assets/vendor/modernizr-d804d6b1ab4eadb8fb48af61a74096e6.js?body=1" for ::1 at 2015-01-19 00:19:33 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-19 00:19:33 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-19 00:19:33 -0700
+
+
+Started GET "/assets/foundation/foundation-ece7e00cdd054357f30fbc2a5a4e3c30.js?body=1" for ::1 at 2015-01-19 00:19:33 -0700
+
+
+Started GET "/assets/foundation/foundation.accordion-3d04bf508a9418fdc81cd5c7d0a1c49d.js?body=1" for ::1 at 2015-01-19 00:19:33 -0700
+
+
+Started GET "/assets/foundation/foundation.clearing-0aec5bed7e891190d8a008ce5d7315e7.js?body=1" for ::1 at 2015-01-19 00:19:33 -0700
+
+
+Started GET "/assets/foundation/foundation.interchange-51c1f69e58ac915261c2f19939a6ffc8.js?body=1" for ::1 at 2015-01-19 00:19:33 -0700
+
+
+Started GET "/assets/foundation/foundation.magellan-03b9c678f8797176264e917ce34331bd.js?body=1" for ::1 at 2015-01-19 00:19:33 -0700
+
+
+Started GET "/assets/foundation/foundation.orbit-20cb4e9c7259b06ea11dbe71f058f502.js?body=1" for ::1 at 2015-01-19 00:19:33 -0700
+
+
+Started GET "/assets/foundation/foundation.abide-2ec530cd06c78b471a0bda9dcbaba353.js?body=1" for ::1 at 2015-01-19 00:19:33 -0700
+
+
+Started GET "/assets/foundation/foundation.alert-650042c6860b24bb872463c8b3f8aa8c.js?body=1" for ::1 at 2015-01-19 00:19:33 -0700
+
+
+Started GET "/assets/foundation/foundation.dropdown-51a6f3e403182c0631c04b4ed672b6aa.js?body=1" for ::1 at 2015-01-19 00:19:33 -0700
+
+
+Started GET "/assets/foundation/foundation.joyride-8b61d0d3ff7ac6df603f7309d3a86fb9.js?body=1" for ::1 at 2015-01-19 00:19:33 -0700
+
+
+Started GET "/assets/foundation/foundation.offcanvas-29588b3b2cc818691e87dc5dcd2cf2d2.js?body=1" for ::1 at 2015-01-19 00:19:33 -0700
+
+
+Started GET "/assets/foundation/foundation.reveal-dcfe4d3df1f6f19988ff7e6a27a9f5cb.js?body=1" for ::1 at 2015-01-19 00:19:33 -0700
+
+
+Started GET "/assets/foundation/foundation.slider-02784fa4e40cec8a79e0cd398154fe13.js?body=1" for ::1 at 2015-01-19 00:19:33 -0700
+
+
+Started GET "/assets/foundation/foundation.tooltip-11a5f22deb5107bd8d056a4a92547d92.js?body=1" for ::1 at 2015-01-19 00:19:33 -0700
+
+
+Started GET "/assets/foundation/foundation.equalizer-2426b7ac654d73d1baf2fddfb072f8a5.js?body=1" for ::1 at 2015-01-19 00:19:33 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-19 00:19:33 -0700
+
+
+Started GET "/assets/application-d9bd4d34014c63190efc4e56b3021933.js?body=1" for ::1 at 2015-01-19 00:19:33 -0700
+
+
+Started GET "/assets/foundation/foundation.tab-e1ee77678dc79b9e0325d678cdbcc0b9.js?body=1" for ::1 at 2015-01-19 00:19:33 -0700
+
+
+Started GET "/assets/foundation/foundation.topbar-03679c9351cf106176ad8fcf9726843d.js?body=1" for ::1 at 2015-01-19 00:19:33 -0700
+
+
+Started GET "/assets/foundation-d72e2180e40189136db6ab13d1e7ceae.js?body=1" for ::1 at 2015-01-19 00:19:33 -0700
+
+
+Started GET "/assets/pages-520f000de9c4179bc5a11504b602dff1.js?body=1" for ::1 at 2015-01-19 00:19:33 -0700
+
+
+Started POST "/users/sign_in" for ::1 at 2015-01-19 00:19:44 -0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"K5rPr7oce3lIoAOHHbxbQPaiN3yu8azGVKtUz/0ehweRShox2Km6mdkCO/jg362L7VCM/q9LrvnsPnX9CD43Yw==", "user"=>{"email"=>"design@thomaswicker.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "design@thomaswicker.com"]]
+Completed 401 Unauthorized in 57ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"K5rPr7oce3lIoAOHHbxbQPaiN3yu8azGVKtUz/0ehweRShox2Km6mdkCO/jg362L7VCM/q9LrvnsPnX9CD43Yw==", "user"=>{"email"=>"design@thomaswicker.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered devise/shared/_links.html.erb (1.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 169ms (Views: 112.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides-956851ad74b4019d3e40fece236697d7.css?body=1" for ::1 at 2015-01-19 00:19:44 -0700
+
+
+Started GET "/assets/pages-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-01-19 00:19:44 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-19 00:19:44 -0700
+
+
+Started GET "/assets/vendor/modernizr-d804d6b1ab4eadb8fb48af61a74096e6.js?body=1" for ::1 at 2015-01-19 00:19:44 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-19 00:19:44 -0700
+
+
+Started GET "/assets/application-c51551f704bf3082e9450c4664976f24.css?body=1" for ::1 at 2015-01-19 00:19:44 -0700
+
+
+Started GET "/assets/foundation/foundation-ece7e00cdd054357f30fbc2a5a4e3c30.js?body=1" for ::1 at 2015-01-19 00:19:44 -0700
+
+
+Started GET "/assets/foundation/foundation.accordion-3d04bf508a9418fdc81cd5c7d0a1c49d.js?body=1" for ::1 at 2015-01-19 00:19:44 -0700
+
+
+Started GET "/assets/foundation/foundation.clearing-0aec5bed7e891190d8a008ce5d7315e7.js?body=1" for ::1 at 2015-01-19 00:19:44 -0700
+
+
+Started GET "/assets/foundation/foundation.interchange-51c1f69e58ac915261c2f19939a6ffc8.js?body=1" for ::1 at 2015-01-19 00:19:44 -0700
+
+
+Started GET "/assets/foundation/foundation.magellan-03b9c678f8797176264e917ce34331bd.js?body=1" for ::1 at 2015-01-19 00:19:44 -0700
+
+
+Started GET "/assets/foundation/foundation.orbit-20cb4e9c7259b06ea11dbe71f058f502.js?body=1" for ::1 at 2015-01-19 00:19:44 -0700
+
+
+Started GET "/assets/foundation/foundation.abide-2ec530cd06c78b471a0bda9dcbaba353.js?body=1" for ::1 at 2015-01-19 00:19:44 -0700
+
+
+Started GET "/assets/foundation/foundation.alert-650042c6860b24bb872463c8b3f8aa8c.js?body=1" for ::1 at 2015-01-19 00:19:44 -0700
+
+
+Started GET "/assets/foundation/foundation.dropdown-51a6f3e403182c0631c04b4ed672b6aa.js?body=1" for ::1 at 2015-01-19 00:19:44 -0700
+
+
+Started GET "/assets/foundation/foundation.joyride-8b61d0d3ff7ac6df603f7309d3a86fb9.js?body=1" for ::1 at 2015-01-19 00:19:44 -0700
+
+
+Started GET "/assets/foundation/foundation.offcanvas-29588b3b2cc818691e87dc5dcd2cf2d2.js?body=1" for ::1 at 2015-01-19 00:19:44 -0700
+
+
+Started GET "/assets/foundation/foundation.reveal-dcfe4d3df1f6f19988ff7e6a27a9f5cb.js?body=1" for ::1 at 2015-01-19 00:19:44 -0700
+
+
+Started GET "/assets/foundation/foundation.slider-02784fa4e40cec8a79e0cd398154fe13.js?body=1" for ::1 at 2015-01-19 00:19:44 -0700
+
+
+Started GET "/assets/foundation/foundation.tooltip-11a5f22deb5107bd8d056a4a92547d92.js?body=1" for ::1 at 2015-01-19 00:19:44 -0700
+
+
+Started GET "/assets/foundation/foundation.equalizer-2426b7ac654d73d1baf2fddfb072f8a5.js?body=1" for ::1 at 2015-01-19 00:19:44 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-19 00:19:44 -0700
+
+
+Started GET "/assets/application-d9bd4d34014c63190efc4e56b3021933.js?body=1" for ::1 at 2015-01-19 00:19:44 -0700
+
+
+Started GET "/assets/foundation/foundation.tab-e1ee77678dc79b9e0325d678cdbcc0b9.js?body=1" for ::1 at 2015-01-19 00:19:44 -0700
+
+
+Started GET "/assets/foundation/foundation.topbar-03679c9351cf106176ad8fcf9726843d.js?body=1" for ::1 at 2015-01-19 00:19:44 -0700
+
+
+Started GET "/assets/foundation-d72e2180e40189136db6ab13d1e7ceae.js?body=1" for ::1 at 2015-01-19 00:19:44 -0700
+
+
+Started GET "/assets/pages-520f000de9c4179bc5a11504b602dff1.js?body=1" for ::1 at 2015-01-19 00:19:44 -0700
+
+
+Started POST "/users/sign_in" for ::1 at 2015-01-19 00:19:53 -0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Iyx0LQVWEcH0lBmOQydpQoXnBbeznp0fLuvYn0UvzbeZ/KGzZ+PQIWU2IfG+RJ+JnhW+NbIknyCWfvmtsA990w==", "user"=>{"email"=>"design@thomaswicker.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "design@thomaswicker.com"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_sign_in_at", "2015-01-19 07:13:11.917343"], ["current_sign_in_at", "2015-01-19 07:19:53.932271"], ["sign_in_count", 3], ["updated_at", "2015-01-19 07:19:53.933883"], ["id", 1]]
+  [1m[35m (1.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 78ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/" for ::1 at 2015-01-19 00:19:53 -0700
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 108ms (Views: 107.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/foundation_and_overrides-956851ad74b4019d3e40fece236697d7.css?body=1" for ::1 at 2015-01-19 00:19:54 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-19 00:19:54 -0700
+
+
+Started GET "/assets/pages-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-01-19 00:19:54 -0700
+
+
+Started GET "/assets/vendor/modernizr-d804d6b1ab4eadb8fb48af61a74096e6.js?body=1" for ::1 at 2015-01-19 00:19:54 -0700
+
+
+Started GET "/assets/application-c51551f704bf3082e9450c4664976f24.css?body=1" for ::1 at 2015-01-19 00:19:54 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-19 00:19:54 -0700
+
+
+Started GET "/assets/foundation/foundation-ece7e00cdd054357f30fbc2a5a4e3c30.js?body=1" for ::1 at 2015-01-19 00:19:54 -0700
+
+
+Started GET "/assets/foundation/foundation.clearing-0aec5bed7e891190d8a008ce5d7315e7.js?body=1" for ::1 at 2015-01-19 00:19:54 -0700
+
+
+Started GET "/assets/foundation/foundation.accordion-3d04bf508a9418fdc81cd5c7d0a1c49d.js?body=1" for ::1 at 2015-01-19 00:19:54 -0700
+
+
+Started GET "/assets/foundation/foundation.interchange-51c1f69e58ac915261c2f19939a6ffc8.js?body=1" for ::1 at 2015-01-19 00:19:54 -0700
+
+
+Started GET "/assets/foundation/foundation.magellan-03b9c678f8797176264e917ce34331bd.js?body=1" for ::1 at 2015-01-19 00:19:54 -0700
+
+
+Started GET "/assets/foundation/foundation.orbit-20cb4e9c7259b06ea11dbe71f058f502.js?body=1" for ::1 at 2015-01-19 00:19:54 -0700
+
+
+Started GET "/assets/foundation/foundation.abide-2ec530cd06c78b471a0bda9dcbaba353.js?body=1" for ::1 at 2015-01-19 00:19:54 -0700
+
+
+Started GET "/assets/foundation/foundation.dropdown-51a6f3e403182c0631c04b4ed672b6aa.js?body=1" for ::1 at 2015-01-19 00:19:54 -0700
+
+
+Started GET "/assets/foundation/foundation.alert-650042c6860b24bb872463c8b3f8aa8c.js?body=1" for ::1 at 2015-01-19 00:19:54 -0700
+
+
+Started GET "/assets/foundation/foundation.joyride-8b61d0d3ff7ac6df603f7309d3a86fb9.js?body=1" for ::1 at 2015-01-19 00:19:54 -0700
+
+
+Started GET "/assets/foundation/foundation.offcanvas-29588b3b2cc818691e87dc5dcd2cf2d2.js?body=1" for ::1 at 2015-01-19 00:19:54 -0700
+
+
+Started GET "/assets/foundation/foundation.reveal-dcfe4d3df1f6f19988ff7e6a27a9f5cb.js?body=1" for ::1 at 2015-01-19 00:19:54 -0700
+
+
+Started GET "/assets/foundation/foundation.slider-02784fa4e40cec8a79e0cd398154fe13.js?body=1" for ::1 at 2015-01-19 00:19:54 -0700
+
+
+Started GET "/assets/foundation/foundation.tooltip-11a5f22deb5107bd8d056a4a92547d92.js?body=1" for ::1 at 2015-01-19 00:19:54 -0700
+
+
+Started GET "/assets/foundation/foundation.equalizer-2426b7ac654d73d1baf2fddfb072f8a5.js?body=1" for ::1 at 2015-01-19 00:19:54 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-19 00:19:54 -0700
+
+
+Started GET "/assets/application-d9bd4d34014c63190efc4e56b3021933.js?body=1" for ::1 at 2015-01-19 00:19:54 -0700
+
+
+Started GET "/assets/foundation/foundation.tab-e1ee77678dc79b9e0325d678cdbcc0b9.js?body=1" for ::1 at 2015-01-19 00:19:54 -0700
+
+
+Started GET "/assets/foundation/foundation.topbar-03679c9351cf106176ad8fcf9726843d.js?body=1" for ::1 at 2015-01-19 00:19:54 -0700
+
+
+Started GET "/assets/foundation-d72e2180e40189136db6ab13d1e7ceae.js?body=1" for ::1 at 2015-01-19 00:19:54 -0700
+
+
+Started GET "/assets/pages-520f000de9c4179bc5a11504b602dff1.js?body=1" for ::1 at 2015-01-19 00:19:54 -0700
+
+
+Started GET "/" for ::1 at 2015-01-19 00:21:04 -0700
+Processing by PagesController#home as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 109ms (Views: 108.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/foundation_and_overrides-956851ad74b4019d3e40fece236697d7.css?body=1" for ::1 at 2015-01-19 00:21:04 -0700
+
+
+Started GET "/assets/foundation/foundation-ece7e00cdd054357f30fbc2a5a4e3c30.js?body=1" for ::1 at 2015-01-19 00:21:04 -0700
+
+
+Started GET "/assets/pages-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-01-19 00:21:04 -0700
+
+
+Started GET "/assets/vendor/modernizr-d804d6b1ab4eadb8fb48af61a74096e6.js?body=1" for ::1 at 2015-01-19 00:21:04 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-19 00:21:04 -0700
+
+
+Started GET "/assets/application-c51551f704bf3082e9450c4664976f24.css?body=1" for ::1 at 2015-01-19 00:21:04 -0700
+
+
+Started GET "/assets/foundation/foundation.abide-2ec530cd06c78b471a0bda9dcbaba353.js?body=1" for ::1 at 2015-01-19 00:21:04 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-19 00:21:04 -0700
+
+
+Started GET "/assets/foundation/foundation.clearing-0aec5bed7e891190d8a008ce5d7315e7.js?body=1" for ::1 at 2015-01-19 00:21:04 -0700
+
+
+Started GET "/assets/foundation/foundation.interchange-51c1f69e58ac915261c2f19939a6ffc8.js?body=1" for ::1 at 2015-01-19 00:21:04 -0700
+
+
+Started GET "/assets/foundation/foundation.magellan-03b9c678f8797176264e917ce34331bd.js?body=1" for ::1 at 2015-01-19 00:21:04 -0700
+
+
+Started GET "/assets/foundation/foundation.orbit-20cb4e9c7259b06ea11dbe71f058f502.js?body=1" for ::1 at 2015-01-19 00:21:04 -0700
+
+
+Started GET "/assets/foundation/foundation.accordion-3d04bf508a9418fdc81cd5c7d0a1c49d.js?body=1" for ::1 at 2015-01-19 00:21:04 -0700
+
+
+Started GET "/assets/foundation/foundation.tooltip-11a5f22deb5107bd8d056a4a92547d92.js?body=1" for ::1 at 2015-01-19 00:21:04 -0700
+
+
+Started GET "/assets/foundation/foundation.dropdown-51a6f3e403182c0631c04b4ed672b6aa.js?body=1" for ::1 at 2015-01-19 00:21:04 -0700
+
+
+Started GET "/assets/foundation/foundation.joyride-8b61d0d3ff7ac6df603f7309d3a86fb9.js?body=1" for ::1 at 2015-01-19 00:21:04 -0700
+
+
+Started GET "/assets/foundation/foundation.offcanvas-29588b3b2cc818691e87dc5dcd2cf2d2.js?body=1" for ::1 at 2015-01-19 00:21:04 -0700
+
+
+Started GET "/assets/foundation/foundation.reveal-dcfe4d3df1f6f19988ff7e6a27a9f5cb.js?body=1" for ::1 at 2015-01-19 00:21:04 -0700
+
+
+Started GET "/assets/foundation/foundation.alert-650042c6860b24bb872463c8b3f8aa8c.js?body=1" for ::1 at 2015-01-19 00:21:04 -0700
+
+
+Started GET "/assets/foundation/foundation.topbar-03679c9351cf106176ad8fcf9726843d.js?body=1" for ::1 at 2015-01-19 00:21:04 -0700
+
+
+Started GET "/assets/foundation/foundation.equalizer-2426b7ac654d73d1baf2fddfb072f8a5.js?body=1" for ::1 at 2015-01-19 00:21:04 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-19 00:21:04 -0700
+
+
+Started GET "/assets/application-d9bd4d34014c63190efc4e56b3021933.js?body=1" for ::1 at 2015-01-19 00:21:04 -0700
+
+
+Started GET "/assets/foundation/foundation.slider-02784fa4e40cec8a79e0cd398154fe13.js?body=1" for ::1 at 2015-01-19 00:21:04 -0700
+
+
+Started GET "/assets/foundation-d72e2180e40189136db6ab13d1e7ceae.js?body=1" for ::1 at 2015-01-19 00:21:04 -0700
+
+
+Started GET "/assets/pages-520f000de9c4179bc5a11504b602dff1.js?body=1" for ::1 at 2015-01-19 00:21:04 -0700
+
+
+Started GET "/assets/foundation/foundation.tab-e1ee77678dc79b9e0325d678cdbcc0b9.js?body=1" for ::1 at 2015-01-19 00:21:04 -0700
+
+
+Started GET "/" for ::1 at 2015-01-19 00:21:21 -0700
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered pages/home.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 117ms (Views: 115.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/foundation_and_overrides-956851ad74b4019d3e40fece236697d7.css?body=1" for ::1 at 2015-01-19 00:21:22 -0700
+
+
+Started GET "/assets/application-c51551f704bf3082e9450c4664976f24.css?body=1" for ::1 at 2015-01-19 00:21:22 -0700
+
+
+Started GET "/assets/pages-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-01-19 00:21:22 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-19 00:21:22 -0700
+
+
+Started GET "/assets/vendor/modernizr-d804d6b1ab4eadb8fb48af61a74096e6.js?body=1" for ::1 at 2015-01-19 00:21:22 -0700
+
+
+Started GET "/assets/foundation/foundation-ece7e00cdd054357f30fbc2a5a4e3c30.js?body=1" for ::1 at 2015-01-19 00:21:22 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-19 00:21:22 -0700
+
+
+Started GET "/assets/foundation/foundation.accordion-3d04bf508a9418fdc81cd5c7d0a1c49d.js?body=1" for ::1 at 2015-01-19 00:21:22 -0700
+
+
+Started GET "/assets/foundation/foundation.clearing-0aec5bed7e891190d8a008ce5d7315e7.js?body=1" for ::1 at 2015-01-19 00:21:22 -0700
+
+
+Started GET "/assets/foundation/foundation.interchange-51c1f69e58ac915261c2f19939a6ffc8.js?body=1" for ::1 at 2015-01-19 00:21:22 -0700
+
+
+Started GET "/assets/foundation/foundation.magellan-03b9c678f8797176264e917ce34331bd.js?body=1" for ::1 at 2015-01-19 00:21:22 -0700
+
+
+Started GET "/assets/foundation/foundation.abide-2ec530cd06c78b471a0bda9dcbaba353.js?body=1" for ::1 at 2015-01-19 00:21:22 -0700
+
+
+Started GET "/assets/foundation/foundation.slider-02784fa4e40cec8a79e0cd398154fe13.js?body=1" for ::1 at 2015-01-19 00:21:22 -0700
+
+
+Started GET "/assets/foundation/foundation.alert-650042c6860b24bb872463c8b3f8aa8c.js?body=1" for ::1 at 2015-01-19 00:21:22 -0700
+
+
+Started GET "/assets/foundation/foundation.dropdown-51a6f3e403182c0631c04b4ed672b6aa.js?body=1" for ::1 at 2015-01-19 00:21:22 -0700
+
+
+Started GET "/assets/foundation/foundation.joyride-8b61d0d3ff7ac6df603f7309d3a86fb9.js?body=1" for ::1 at 2015-01-19 00:21:22 -0700
+
+
+Started GET "/assets/foundation/foundation.offcanvas-29588b3b2cc818691e87dc5dcd2cf2d2.js?body=1" for ::1 at 2015-01-19 00:21:22 -0700
+
+
+Started GET "/assets/foundation/foundation.orbit-20cb4e9c7259b06ea11dbe71f058f502.js?body=1" for ::1 at 2015-01-19 00:21:22 -0700
+
+
+Started GET "/assets/foundation/foundation.tab-e1ee77678dc79b9e0325d678cdbcc0b9.js?body=1" for ::1 at 2015-01-19 00:21:22 -0700
+
+
+Started GET "/assets/foundation/foundation.tooltip-11a5f22deb5107bd8d056a4a92547d92.js?body=1" for ::1 at 2015-01-19 00:21:22 -0700
+
+
+Started GET "/assets/foundation/foundation.equalizer-2426b7ac654d73d1baf2fddfb072f8a5.js?body=1" for ::1 at 2015-01-19 00:21:22 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-19 00:21:22 -0700
+
+
+Started GET "/assets/application-d9bd4d34014c63190efc4e56b3021933.js?body=1" for ::1 at 2015-01-19 00:21:22 -0700
+
+
+Started GET "/assets/foundation/foundation.reveal-dcfe4d3df1f6f19988ff7e6a27a9f5cb.js?body=1" for ::1 at 2015-01-19 00:21:22 -0700
+
+
+Started GET "/assets/foundation/foundation.topbar-03679c9351cf106176ad8fcf9726843d.js?body=1" for ::1 at 2015-01-19 00:21:22 -0700
+
+
+Started GET "/assets/foundation-d72e2180e40189136db6ab13d1e7ceae.js?body=1" for ::1 at 2015-01-19 00:21:22 -0700
+
+
+Started GET "/assets/pages-520f000de9c4179bc5a11504b602dff1.js?body=1" for ::1 at 2015-01-19 00:21:22 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
