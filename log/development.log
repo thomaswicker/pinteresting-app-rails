@@ -1,0 +1,51 @@
+
+
+Started GET "/" for ::1 at 2015-01-18 23:18:44 -0700
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 428ms (Views: 419.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application-823e88bf1231c4323ee1d35731d8f1b6.css?body=1" for ::1 at 2015-01-18 23:18:45 -0700
+
+
+Started GET "/assets/pages-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-01-18 23:18:45 -0700
+
+
+Started GET "/" for ::1 at 2015-01-18 23:24:01 -0700
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 4457ms (Views: 4449.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages-069e88c06b889877799890854d7f4c40.css?body=1" for ::1 at 2015-01-18 23:24:06 -0700
+
+
+Started GET "/assets/jquery-eb3e278249152b5b5d5170b73d9dbf52.js?body=1" for ::1 at 2015-01-18 23:24:06 -0700
+
+
+Started GET "/assets/jquery_ujs-0b8f09cf5aec4ba1be1abd9f915c77e2.js?body=1" for ::1 at 2015-01-18 23:24:06 -0700
+
+
+Started GET "/assets/application-c51551f704bf3082e9450c4664976f24.css?body=1" for ::1 at 2015-01-18 23:24:06 -0700
+
+
+Started GET "/assets/foundation/foundation.alert-650042c6860b24bb872463c8b3f8aa8c.js?body=1" for ::1 at 2015-01-18 23:24:06 -0700
+
+
+Started GET "/assets/vendor/modernizr-d804d6b1ab4eadb8fb48af61a74096e6.js?body=1" for ::1 at 2015-01-18 23:24:06 -0700
+
+
+Started GET "/assets/foundation/foundation.accordion-3d04bf508a9418fdc81cd5c7d0a1c49d.js?body=1" for ::1 at 2015-01-18 23:24:06 -0700
+
+
+Started GET "/assets/pages-520f000de9c4179bc5a11504b602dff1.js?body=1" for ::1 at 2015-01-18 23:24:06 -0700
+
+
+Started GET "/assets/foundation-d72e2180e40189136db6ab13d1e7ceae.js?body=1" for ::1 at 2015-01-18 23:24:06 -0700
+
+
+Started GET "/assets/turbolinks-924184401b7d116eadaaefc96895fa84.js?body=1" for ::1 at 2015-01-18 23:24:06 -0700
+
+
+Started GET "/assets/foundation/foundation.equalizer-2426b7ac654d73d1baf2fddfb072f8a5.js?body=1" for ::1 at 2015-01-18 23:24:06 -0700
