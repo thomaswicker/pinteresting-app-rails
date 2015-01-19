@@ -10,11 +10,15 @@
   <section class="top-bar-section">
     <!-- Right Nav Section -->
     <ul class="right">
-      <li class="active"><%= link_to 'home', root_path %></li>
+      <li class=""><%= link_to 'home', root_path %></li>
       <li class=""><%= link_to 'about', about_path %></li>
+
       <% if user_signed_in? %>
-        <li class=""><%= link_to "Account Settings", edit_user_registration_path, class: "button" %></li>
-        <li class=""><%= link_to "Log out", destroy_user_session_path, method: :delete, class: "button alert" %></li>
+        <li class=""><%= link_to "settings", edit_user_registration_path, class: "" %></li>
+        <li class=""><%= link_to "log out", destroy_user_session_path, method: :delete, class: "alert" %></li>
+      <% else %>
+      <%= link_to "Log in", new_user_session_path, class: "alert" %>
+
       <% end %>
     </ul>
   </section>
