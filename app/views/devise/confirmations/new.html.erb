@@ -2,15 +2,22 @@
 
 <%= form_for(resource, as: resource_name, url: confirmation_path(resource_name), html: { method: :post }) do |f| %>
   <%= devise_error_messages! %>
-
-  <div class="field">
-    <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true %>
-  </div>
-
+  <div class="row">
+		<div class="medium-6 columns">
+		  <div class="field">
+		    <%= f.label :email %><br />
+		    <%= f.email_field :email, autofocus: true %>
+		  </div><!-- END of .field -->	
+		</div><!-- END of .large-12 columns -->	
+	</div><!-- END of .row -->	
   <div class="actions">
     <%= f.submit "Resend confirmation instructions" %>
   </div>
 <% end %>
 
 <%= render "devise/shared/links" %>
+
+
+<form>
+  <div class="row">
+    <div class="large-12 columns">
