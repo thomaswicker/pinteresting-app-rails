@@ -17,8 +17,7 @@
         <li class=""><%= link_to "settings", edit_user_registration_path, class: "" %></li>
         <li class=""><%= link_to "log out", destroy_user_session_path, method: :delete, class: "alert" %></li>
       <% else %>
-      <%= link_to "Log in", new_user_session_path, class: "alert" %>
-
+        <li class=""><%= link_to "log in", new_user_session_path, class: "" %></li>
       <% end %>
     </ul>
   </section>

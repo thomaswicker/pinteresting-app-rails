@@ -1,11 +1,15 @@
-<h1>Welcome to Pinteresting</h1>
+<div class="row ">
+  <div class="medium-12 columns box-container ">
+		<h3 class="h3">Welcome to Pinteresting!</h3>
 
-<% if user_signed_in? %>
-	<%= link_to "Log out", destroy_user_session_path, method: :delete, class: "button alert" %>
-<% else %>
+		<% if user_signed_in? %>
+			<%= link_to "Log out", destroy_user_session_path, method: :delete, class: "button small alert" %>
+		<% else %>
 
-<div class="button-box">
-	<%= link_to "Log in", new_user_session_path, class: "button" %>
-	<%= link_to "Sign Up", new_user_registration_path, class: "button success" %>
- <% end %>
-</div><!-- .button-box -->
+		<div class="button-box">
+			<%= link_to "Log in", new_user_session_path, class: "button small" %>
+			<%= link_to "Sign Up", new_user_registration_path, class: "button small success" %>
+		 <% end %>
+		</div><!-- .button-box -->
+	</div><!-- END of .XXXXX-6 columns --> 
+</div><!-- END of .row --> 

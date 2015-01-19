@@ -18,9 +18,12 @@
 
     <% flash.each do |name, msg| %>
       <%= content_tag(:div, msg, class: "alert-box") %>
-      <% end %>
+    <% end %>
 
     <%= yield %>
+
     <%= javascript_include_tag "application" %>
+
   </body>
+  
 </html>
